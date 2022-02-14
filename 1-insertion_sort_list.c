@@ -54,6 +54,9 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *current = (*list)->next, *previous;
 
+	if (!list || !(*list))
+		return;
+
 	while (current && current->next)
 	{
 		while (current)
