@@ -8,7 +8,10 @@
  */
 void swap(listint_t **list, listint_t *current, listint_t *previous)
 {
-	listint_t *temp1, *temp2;
+	listint_t *temp1 = NULL, *temp2 = NULL;
+
+	if (!current || !previous)
+		return;
 
 	if (!previous->prev)
 	{
@@ -52,11 +55,12 @@ void swap(listint_t **list, listint_t *current, listint_t *previous)
  */
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *current = (*list)->next, *previous;
+	listint_t *current = NULL, *previous = NULL;
 
 	if (!list || !(*list))
 		return;
 
+	current = (*list)->next;
 	while (current && current->next)
 	{
 		while (current)
@@ -72,7 +76,5 @@ void insertion_sort_list(listint_t **list)
 			}
 			current = current->next;
 		}
-
 	}
 }
-
