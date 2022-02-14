@@ -28,6 +28,9 @@ void selection_sort(int *array, size_t size)
 {
 	size_t index = 0, start = 0, min = 0;
 
+	if (!array || size < 2)
+		return;
+
 	while (start < size)
 	{
 		min = start;
@@ -46,3 +49,4 @@ void selection_sort(int *array, size_t size)
 		start++;
 	}
 }
+
