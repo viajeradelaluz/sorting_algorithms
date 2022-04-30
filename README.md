@@ -99,7 +99,7 @@ The `3-quick_sort.c` function sorts an array of integers in ascending order usin
 
 ## Authors
 
-| [<img src="https://avatars.githubusercontent.com/u/87556519" width="110" style="border-radius: 50%"><br><sub>@viajeradelaluz](https://github.com/viajeradelaluz) | [<img src="https://avatars.githubusercontent.com/u/91074465" width="110" style="border-radius: 50%"><br><sub>@Ella711](https://github.com/Ella711) |
+| [<img src="https://avatars.githubusercontent.com/u/87556519" width="110" style="border-radius: 50%"><br><sub>Johanna Alfonso<br><sup>@viajeradelaluz](https://github.com/viajeradelaluz) | [<img src="https://avatars.githubusercontent.com/u/91074465" width="110" style="border-radius: 50%"><br><sub>Ornella Russo<br><sup>@Ella711](https://github.com/Ella711) |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|
 
 ## More information
